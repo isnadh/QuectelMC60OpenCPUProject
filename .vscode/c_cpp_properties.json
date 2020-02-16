@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "arm-none-eabi-gcc",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/source/",
+                "${workspaceFolder}/MC60_OpenCPU_GS3_SDK_V1.7/include",
+                "${workspaceFolder}/MC60_OpenCPU_GS3_SDK_V1.7/ril/inc",
+                "${workspaceFolder}/MC60_OpenCPU_GS3_SDK_V1.7/custom/fota/inc",
+                "${workspaceFolder}/MC60_OpenCPU_GS3_SDK_V1.7/custom/config",
+                "C:\\Sourcery_CodeBench_Lite_for_ARM_EABI\\arm-none-eabi\\include"
+            ],
+            "defines": [
+                "__CUSTOMER_CODE__"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "C:\\Sourcery_CodeBench_Lite_for_ARM_EABI\\bin\\arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
